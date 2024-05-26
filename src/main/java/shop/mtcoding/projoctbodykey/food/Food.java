@@ -14,6 +14,7 @@ import java.sql.Timestamp;
 @Entity
 public class Food {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
