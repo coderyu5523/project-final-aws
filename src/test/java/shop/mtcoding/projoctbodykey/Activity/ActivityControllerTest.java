@@ -126,7 +126,6 @@ public class ActivityControllerTest extends MyRestDoc {
         actions.andDo(MockMvcResultHandlers.print()).andDo(document);
     }
 
-
 //    @Test
 //    public void walkingUpdate_fail_test() throws Exception {
 //        // given
