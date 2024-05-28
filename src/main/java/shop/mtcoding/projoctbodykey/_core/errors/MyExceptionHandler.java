@@ -14,6 +14,7 @@ import shop.mtcoding.projoctbodykey._core.utils.ApiUtil;
 @ControllerAdvice
 public class MyExceptionHandler {
 
+
     @ExceptionHandler(Exception400.class)
     public ResponseEntity<?> ex400(Exception400 e) {
         log.warn(e.getMessage());
