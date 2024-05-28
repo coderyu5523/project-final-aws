@@ -127,7 +127,6 @@ public class ActivityControllerTest extends MyRestDoc {
     }
 
 
-
 //    @Test
 //    public void walkingUpdate_fail_test() throws Exception {
 //        // given
