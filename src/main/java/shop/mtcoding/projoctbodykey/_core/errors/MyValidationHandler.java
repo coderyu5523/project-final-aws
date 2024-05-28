@@ -12,6 +12,7 @@ import shop.mtcoding.projoctbodykey._core.errors.exception.Exception400;
 @Component
 public class MyValidationHandler {
 
+
     @Before("@annotation(org.springframework.web.bind.annotation.PostMapping) || @annotation(org.springframework.web.bind.annotation.PutMapping)")
     public void validationHandler(JoinPoint jp) {
         Object[] args = jp.getArgs();
