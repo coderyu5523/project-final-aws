@@ -26,4 +26,4 @@ spring:
 logging:
   level:
     org.hibernate.orm.jdbc.bind: INFO
-    shop.mtcoding.blog: INFO
+    shop.mtcoding.projoctbodykey: INFO
