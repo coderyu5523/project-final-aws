@@ -22,7 +22,6 @@ public class UserController {
     private final ActivityService activityService;
     private final BodyDataService bodyDataService;
 
-
     @GetMapping("/api/users/my-change-fat")
     public ResponseEntity<?> myChangeFat() {
         SessionUser user = (SessionUser) session.getAttribute("sessionUser");
